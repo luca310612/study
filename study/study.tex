@@ -1,0 +1,102 @@
+\documentclass[uplatex,dvipdfmx,a4paper,11pt]{jsarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{bm}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{here}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\hypersetup{
+  bookmarksnumbered = true,
+  colorlinks        = true,
+  citecolor         = red,
+  linkcolor         = blue,
+  pdfborder         = {0 0 0},
+  urlcolor          = cyan
+}
+
+\lstset{
+  backgroundcolor=\color{gray!10},
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  commentstyle=\color{green!50!black},
+  frame=single,
+  keywordstyle=\color{blue},
+  numbers=left,
+  numberstyle=\tiny,
+  showstringspaces=false,
+  stringstyle=\color{red},
+  tabsize=2
+}
+
+\title{ただの反復練習}
+\author{kimuti}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\renewcommand{\abstractname}{はじめに}
+\begin{abstract}
+本稿はただ自身の成長を測るためのものです。
+\end{abstract}
+
+\tableofcontents
+
+\section{イントロ}
+微分方程式とは未知関数の導関数を含む方程式のことを指している。
+
+
+\subsection{歴史的背景}
+AI 研究は 1956 年のダートマス会議を契機に本格化した。
+その後、成功と冬の時代を繰り返しながら、
+現在は第 3 次 AI ブームと呼ばれる機械学習中心の潮流が続いている。
+
+\section{代表的な技術}
+
+\subsection{機械学習}
+機械学習はデータをもとにモデルを自動的に構築する手法である。
+線形回帰やサポートベクターマシンなどの古典的手法のほか、
+近年は深層学習が飛躍的な性能向上をもたらした。
+
+\subsection{ディープラーニング}
+深層学習では、多層のニューラルネットワークを用いて
+特徴量の抽出から予測までを一貫して行う。
+画像認識や自然言語処理において顕著な成果を挙げている。
+
+\subsection{強化学習}
+強化学習は、環境との相互作用を通じて
+最適な行動を学習する枠組みであり、
+ゲームプレイやロボット制御などで活用されている。
+
+\section{応用事例}
+
+\begin{itemize}
+  \item 自然言語処理: 機械翻訳、チャットボット、要約など
+  \item コンピュータビジョン: 自動運転、医用画像診断、監視システム
+  \item 産業分野: 需要予測、異常検知、予防保守
+\end{itemize}
+
+\section{課題と展望}
+AI の発展には、倫理・プライバシー・バイアスといった
+社会的課題の解決が不可欠である。
+今後は説明可能な AI（Explainable AI）や省電力化、
+そして汎用人工知能の実現に向けた研究が加速すると考えられる。
+
+\section{まとめ}
+本稿では AI の基礎を概説した。
+読者には、関心のある分野で具体的なアルゴリズムや事例をさらに学習し、
+実装へと繋げていくことを推奨する。
+
+\end{document}
